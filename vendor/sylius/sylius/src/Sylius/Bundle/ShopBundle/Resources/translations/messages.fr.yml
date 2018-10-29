@@ -13,3 +13,16 @@ sylius:
                 header: 'Votre compte'
                 order_history: 'Historique des commandes'
                 personal_information: 'Informations personnelles'
+            ui:
+                home: 'Accueil'
+                services: 'Services'
+                allcategories: 'Toutes les catégories'
+                services_description: "Ginco Market Services & Evènements ! Trouvez le meilleur endroits et évènements !"
+                business: 'Business'
+                business_description: 'Gingo Marketplace advert! List your business advert for free'
+                properties: 'Properties'
+                properties_description: 'Gingo Marketplace Propriétés! Trouvez les biens immobiliers à louer ou à acheter.'
+                vehicules: 'Véhicules'
+                vehicules_description: 'Trouvez la voiture et les accessoires que vous désirez'
+                buses: 'Voyages'
+                search: 'Rechercher'

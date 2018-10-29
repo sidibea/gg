@@ -28,4 +28,5 @@ sylius:
                 properties_description: 'Gingo Marketplace Properties! Find the properties for rent or buy.'
                 vehicules: 'Vehicles'
                 vehicules_description: 'Find the car of your choice and the car accessories'
-                buses: 'Buses'
+                buses: 'Travel'
+                search: 'Search'
