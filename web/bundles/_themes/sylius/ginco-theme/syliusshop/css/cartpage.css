@@ -70,7 +70,7 @@
 	flex-direction: row;
 	justify-content: space-between;
 }
-.btn-shoping-cart a, .btn-shoping-cart button {
+.btn-shoping-cart a,.btn-shoping-cart button  {
     width: calc(100% / 2 - 20px);
     line-height: 40px;
     font-size: 18px;
@@ -140,16 +140,6 @@
 	cursor: pointer;
 }
 .btn-proceed-checkout
-{
-	border:none;
-	outline: none;
-	font-size: 20px;
-	background: #e3171b;
-	color: #fff;
-	line-height: 85px;
-	text-transform: uppercase;
-}
-a .btn-proceed-checkout
 {
 	border:none;
 	outline: none;

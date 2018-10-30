@@ -1,4 +1,3 @@
-# This file is auto-generated during the composer install
 parameters:
     database_driver: '%env(SYLIUS_DATABASE_DRIVER)%'
     database_host: '%env(SYLIUS_DATABASE_HOST)%'
@@ -12,13 +11,16 @@ parameters:
     mailer_password: '%env(SYLIUS_MAILER_PASSWORD)%'
     secret: '%env(SYLIUS_SECRET)%'
     env(SYLIUS_DATABASE_DRIVER): pdo_mysql
-    env(SYLIUS_DATABASE_HOST): 127.0.0.1
-    env(SYLIUS_DATABASE_PORT): 8889
-    env(SYLIUS_DATABASE_NAME): gincomarket
-    env(SYLIUS_DATABASE_USER): root
-    env(SYLIUS_DATABASE_PASSWORD): root
+    env(SYLIUS_DATABASE_HOST): next-bus.net
+    env(SYLIUS_DATABASE_PORT): null
+    env(SYLIUS_DATABASE_NAME): nextb9og_ginco
+    env(SYLIUS_DATABASE_USER): nextb9og_ginco
+    env(SYLIUS_DATABASE_PASSWORD): sorofing
     env(SYLIUS_MAILER_TRANSPORT): smtp
     env(SYLIUS_MAILER_HOST): 127.0.0.1
     env(SYLIUS_MAILER_USER): null
     env(SYLIUS_MAILER_PASSWORD): null
     env(SYLIUS_SECRET): EDITME
+
+
+

@@ -4,7 +4,7 @@
             <div class="row">
                 <div class=" header-top">
                     <p class="contact_us_header col-md-4 col-xs-12 col-sm-3 clear-margin">
-                        <img src="{{ asset('bundles/syliusshop/img/icon_phone_top.png') }}" alt="Call us" /> Call us <span class="text-red bold">070-7782-7137</span>
+                        <img src="{{ asset('bundles/syliusshop/img/icon_phone_top.png') }}" alt="Call us" /> {{ 'sylius.menu.shop.ui.call_us'|trans }} <span class="text-red bold">73 73 13 03</span>
                     </p>
                     <div class="clear-padding menu-header-top text-right col-md-8 col-xs-12 col-sm-6">
                         {{ sonata_block_render_event('sylius.shop.layout.before_security_widget') }}
@@ -33,7 +33,7 @@
                     <i class="data-icon data-icon-arrows icon-arrows-hamburger-2 icon-pushmenu js-push-menu" aria-hidden="true"></i>
                 </div>
                 <div class="clearfix logo">
-                    {{ render(path('bitbag_sylius_cms_plugin_shop_media_render', {'code' : 'ginco_loo', 'width' : '230'} )) }}
+                    {{ render(path('bitbag_sylius_cms_plugin_shop_media_render', {'code' : 'ginco_logo', 'width' : '230'} )) }}
                 </div>
                 <div class="clearfix search-box relative float-left">
                     <form method="GET" action="/" class="">
@@ -54,8 +54,8 @@
                                 <option>Voucher Service</option>
                             </select>
                         </div>
-                        <input type="text" name="s" placeholder="Enter keyword here . . .">
-                        <button type="submit" class="animate-default button-hover-red">Search</button>
+                        <input type="text" name="s" placeholder="{{ 'sylius.menu.shop.ui.keyword'|trans }}">
+                        <button type="submit" class="animate-default button-hover-red">{{ 'sylius.menu.shop.ui.search'|trans }}</button>
                     </form>
                 </div>
                 <div class="clearfix icon-search-mobile absolute">
@@ -103,7 +103,7 @@
                         </div>
                     </li>
                     <li class="title-hover-red">
-                        <a class="animate-default" href="http://car.gincomarket.com">{{ 'sylius.menu.shop.ui.vehicules'|trans }}</a>
+                        <a class="animate-default" href="http://cars.gincomarket.com">{{ 'sylius.menu.shop.ui.vehicules'|trans }}</a>
                         <div class="sub-menu mega-menu-v2">
                             <h5 class="center text-center">{{ 'sylius.menu.shop.ui.vehicules_description'|trans }}</h5>
                         </div>
